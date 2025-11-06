@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+   .pricing-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pricing-col-left,
+  .pricing-col-right,
+  .pricing-col-empty {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 1rem !important;
+  }
+
+  .pricing-col-empty {
+    display: none;
+  }
+
+  .pricing-col-left h1 {
+    font-size: 1.5rem;
+  }
+
+  .pricing-col-left p {
+    font-size: 0.9rem;
+  }
+
+  .pricing-col-right .col.border {
+    margin-bottom: 1rem;
+  }
+
+  .pricing-col-right .col p {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .container .row {
+    padding: 1rem !important;
+  }
+
+  .container .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 1rem !important;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .container h2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .container p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .container img {
+    width: 100% !important;
+    max-height: 250px;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+  }
+
+  .container .text-center a {
+    display: block;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+  }
+}
