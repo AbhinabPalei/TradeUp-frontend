@@ -8,6 +8,6 @@ export default defineConfig({
   plugins: [react()],
   
   // Naya Fix: Relative base path set karein
-  base: './', 
+  base: '/', 
   
 });
